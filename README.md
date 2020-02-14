@@ -27,7 +27,7 @@ wait_for_enter = True
 
 <b>Generation Run Time-</b> This is the number of generations the program should run for. At the end of this run time some statistics will be shown. To run infinitely set this variable to a negative number.
 
-<b>Sim Speed Multiplier-</b> After every move each AI thread sleeps for .05 seconds (otherwise the players move too fast to see). A higher number here will make each AI player move faster.
+<b>Sim Speed Multiplier-</b> After every move each AI thread sleeps for .05 seconds (otherwise the players move too fast to see). This number is divided into this sleep time thus a higher number here will make each AI player move faster.
 
 <b>Reset Wait-</b> The number of seconds the program should wait before clearing all the dead players from the screen and resetting the generation.
 
